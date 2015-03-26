@@ -34,7 +34,7 @@ cd /opt/Veil/Veil-Evasion/setup
 ./setup.sh
 cd /opt/Veil/Veil-Catapult
 ./setup.sh
-
+ 
 #payload autogeneration
 #
 cd /opt

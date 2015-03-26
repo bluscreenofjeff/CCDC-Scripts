@@ -42,3 +42,4 @@ do
 	echo set command \" $EACH \" >> $OUTFILEDOMAIN
 	echo run >> $OUTFILEDOMAIN
 done
+ 
