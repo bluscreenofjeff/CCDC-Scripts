@@ -89,6 +89,14 @@ svn checkout http://impacket.googlecode.com/svn/trunk/ impacket-read-only
 cd impacket-read-only
 python setup.py install
 
+#carlos perez's asdi scripts
+#
+cd /opt
+git clone https://github.com/darkoperator/Meterpreter-Scripts.git carlos-perez-meterpreter
+cd carlos-perez-meterpreter
+mkdir -p ~/.msf4/modules/post/windows/gather
+cp post/windows/gather/* ~/.msf4/modules/post/windows/gather/
+
 #cleanup
 #
 updatedb
