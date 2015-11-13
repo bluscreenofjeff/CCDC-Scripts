@@ -174,7 +174,7 @@ cp post/windows/gather/* ~/.msf4/modules/post/windows/gather/
 #netripper
 #
 cd /opt
-https://github.com/NytroRST/NetRipper.git
+git clone https://github.com/NytroRST/NetRipper.git
 cd NetRipper
 cp netripper.rb /usr/share/metasploit-framework/modules/post/windows/gather/netripper.rb
 mkdir /usr/share/metasploit-framework/modules/post/windows/gather/netripper
@@ -204,4 +204,4 @@ updatedb
 apt-get clean && apt-get update && apt-get upgrade -y && apt-get dist-upgrade -y
 
 echo
-echo "[!] You must run the setup on Empire manually at /opt/Empire
+echo "[!] You must run the setup on Empire manually at /opt/Empire"
